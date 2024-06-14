@@ -1,13 +1,15 @@
+# Soma de Strings
+# Caso aconteça a soma/multiplicação de duas Strings acontecera uma Concatenação
+x = 3
+y = 0
+y = input("Digite o valor para y: ")
+z =  "O valor dessa explessão é:", x * y
+print(z)
+
+# Soma de Numeros Inteiros
+# O Comando Int(), Faz a Converção de String para N° Inteiro.
 a = 3
 b = 0
-b = input("Digite o valor para b: ")
-c =  "O valor dessa explessão é:", a * b
+b = int(input("Digite o Valor para b: ")) 
+c = "O Valor dessa expressão é:", a * b
 print(c)
-
-#outro
-
-d = 0
-e = 0 
-d = input("digite um valor para a: ")
-e = input("digite um valor para b: ")
-print(d + e)
